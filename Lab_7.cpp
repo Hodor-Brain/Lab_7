@@ -4,12 +4,12 @@ int main()
 {
 	Graph my;
 
-	//my.initGraph();
+	my.initGraph();
 
 	char f[] = "Graph.TXT";
 	char* a = f;
 
-	//my.save(a);
+	my.save(a);
 
 	my.load(a);
 
